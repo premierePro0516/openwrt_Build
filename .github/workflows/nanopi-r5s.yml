@@ -12,8 +12,8 @@ on:
     inputs:
       ssh:
         description: 'ssh'
-        required: false
-        default: 'false'
+        required: true
+        default: 'tre'
 
 env:
   UPLOAD_BIN_DIR: false
