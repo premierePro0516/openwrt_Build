@@ -16,15 +16,15 @@ env:
   REPO_BRANCH: main
   TZ: Asia/Shanghai
 
-on:
-  schedule:
-    - cron: 0 9 * * SAT
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version'
-        required: false
-        default: ''	
+# on:
+#  schedule:
+#    - cron: 0 9 * * SAT
+#  workflow_dispatch:
+#    inputs:
+#      version:
+#        description: 'Version'
+#        required: false
+#        default: ''	
 
 jobs:
   jell:
